@@ -6,6 +6,8 @@ This library uses the [Eigen](http://eigen.tuxfamily.org/) linear algebra librar
 
 ### Usage
 
+Add `ofxPCA.props` to your Visual Studio solution file.
+
     // Make a vector of ofVec3fs that you want to do PCA on,
     // for example the vertices of an ofMesh:
     ofxPCAResult result = pca.analyze(mesh.getVertices());

@@ -7,8 +7,8 @@
 //
 #pragma once
 
-#include "../libs/Eigen/include/Eigen/Core"
-#include "../libs/Eigen/include/Eigen/Eigen"
+#include "Eigen/Core"
+#include "Eigen/Eigen"
 #include "ofMain.h"
 
 using namespace Eigen;
